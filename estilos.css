@@ -9,12 +9,11 @@ body {
 }
 
 h1 {
-    font-family: Impact;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
     color: black;
     text-align: center;
-    margin-top: 20px;
-
+    margin-top: 10px;
 }
 
 h3 {
@@ -51,6 +50,10 @@ header {
 
 }
 
+.formulario>h3 {
+    font-size: 35px;
+
+}
 
 .formulario {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -58,9 +61,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-    width: 1000px;
+    width: 1200px;
     border-radius: 25%;
-
+    margin-left: 90px;
 }
 
 form {
@@ -69,9 +72,13 @@ form {
     width: 50%;
 }
 
+label {
+    font-size: 25px;
+}
+
 .input,
 textarea {
-   
+
     padding: 17px 14px;
     border: 0;
     font-size: 15px;
@@ -85,26 +92,51 @@ textarea {
 }
 
 .boton {
-    background-color: rgb(105, 105, 217);
-    width: 150px;
+    background-color: rgb(246, 23, 23);
+    width: 200px;
+    height: 30px;
     align-self: flex-end;
     cursor: pointer;
+    border-radius: 10px;
+    
 }
 
 .boton:hover {
-    background-color: aqua;
+    background-color: rgb(0, 255, 21);
+}
+.total{
+    background-image: url(Imagenes/lava7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+.contacto{
+    color: yellow;
+}
+.contenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 50px;
+   
 }
 
-@media(max-width:1000px){
- 
-body {
+@media (max-width:758px) {
 
-    padding: 30px;
-}
-.formulario{
-    width: 100%;
-}
-form{
-    width: 100%;
-}
+    body {
+
+        padding: 100px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
 }
