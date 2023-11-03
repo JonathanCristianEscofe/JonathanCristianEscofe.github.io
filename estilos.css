@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgba(12, 187, 187, 0.716);
+    background-color: rgba(201, 204, 210, 0.716);
 }
 
 .inicio {
@@ -83,6 +83,8 @@ header {
 
 .contenedor {
     display:flex;
+    margin: 0;
+    padding: 0;
 
 }
 
